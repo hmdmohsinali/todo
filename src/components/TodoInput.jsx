@@ -45,7 +45,7 @@ const TodoInput = () => {
   }
 
   return (
-    <div className="max-w-md mx-auto mt-8 p-4 bg-gray-100 rounded-lg">
+    <div className="max-w-md mx-auto mt-8 p-4 bg-gray-100 rounded-lg overflow-y-auto max-h-[500px]">
       <h1 className=" items-center flex justify-center text-4xl font-bold m-4"> TODO App</h1>
       <input
         className="border rounded-lg p-2 mb-2 w-full"
